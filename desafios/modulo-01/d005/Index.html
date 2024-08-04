@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,38 @@
     <style>
         * {
             background-color: gray;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin: 10px;
+        }
+
+        h2 {
+            margin: 10px;
+        }
+
+        p {
+            margin: 10px;
+
+        }
+
+        ul {
+            margin: 0;
+            margin-left: 25px;
+
+        }
+
+        ol{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+        }
+
+        .icone-x{
+            width: 20px;
         }
 
         .img-perfil {
@@ -16,7 +48,6 @@
             border: 4rem !important;
             border-color: black !important;
         }
-
     </style>
 
 
@@ -28,18 +59,28 @@
 
     <img class="img-perfil" src="../d005/imagens/foto-perfil-guanabara.png" alt="Foto circular do Guanabara"><br>
 
-    Meu nome é <b>Marcelo Regis</b> estou estudante e aspirante da tecnologia <br>
-    desde 2024 e hoje elaboro programas de atomação comercial para otimizar e <br>
-    simplificar através da tecnologia o dia a dia de pequenas empresas e consultórios.
+
+    <p>
+        Meu nome é <b>Marcelo Regis</b> estou estudante e aspirante da tecnologia <br>
+        desde 2024 e hoje elaboro programas de atomação comercial para otimizar e <br>
+        simplificar através da tecnologia o dia a dia de pequenas empresas e consultórios.
+    </p>
 
     <h2><b>Como falar comigo</b></h2>
 
     <ul>
-        <ol><a href="#">/Curso em Vídeo</a> - Se inscreve lá no meu canal no YouTube</ol>
-        <ol><a href=""></a></ol>
-        <ol><a href=""></a></ol>
-        <ol><a href=""></a></ol>
+        <ol><img src="imagens/icone-youtube.png" alt=""> <b><a href="https://www.youtube.com.br" target="_blank">/Curso em Vídeo</a></b> </img> - Se inscreve lá no meu canal no YouTube</ol>
 
+        <ol><img src="imagens/icone-github.png" alt=""> <a href="https://www.github.com" target="_blank"> <b>/gustavoguanabara</b></a> - Acessa meu Repósitório público do Github</ol>
+        
+        <ol><img src="imagens/icone-instagram.png" alt=""> <a href="https://www.instagram.com.br" target="_blank"> <b>/gustavoguanabara</b></a> - Me segue lá no instagram</ol>
+        
+        <ol><img src="imagens/icone-linkedin.png" alt=""> <a href="https://www.linkedin.com.br" target="_blank"> <b>/guanabara</b></a> - Me adiciona no linkedin</ol>
+
+        <!--A imagem não é icone, está configurada com CSS, na class "icone-x"-->
+        <ol><img class="icone-x" src="imagens/icone-X.png" alt=""> <a href="https://www.x.com" target="_blank"> <b>/guanabara</b></a> - Me segue lá no X (antigo Twitter)</ol>
+
+        <ol><img src="imagens/icone-github.png" alt=""> <a href="https://www.facebook.com" target="_blank"> <b>/gustavoguanabara</b></a> - Me acompanhe lá no Facebook</ol>
 
     </ul>
 
